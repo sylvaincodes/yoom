@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .p-inherit {
+    padding: inherit
+  }
+}
+
+@import '../node_modules/@radix-ui/themes/styles.css';
+@import '../node_modules/react-datepicker/dist/react-datepicker.css';
+@import '../public/css/stream.css';
