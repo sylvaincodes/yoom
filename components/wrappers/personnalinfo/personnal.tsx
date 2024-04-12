@@ -13,12 +13,12 @@ export const Personnal = () => {
   const client = useStreamVideoClient();
 
   const meetingId = user?.id;
-  const { call } = useGetCallById(meetingId!);
+  const { call } = useGetCallById(meetingId);
 
   const startRoom = async () => {
     if (!client || !user) return;
 
-    const newCall = client.call("default", meetingId!);
+    const newCall = client.call("default", meetingId);
 
     if (!call) {
       await newCall.getOrCreate({
@@ -37,7 +37,7 @@ export const Personnal = () => {
 
   return (
     <div className="grid grid-rows-[auto_auto] gap-4" >
-      <PersonnalCard startRoom={startRoom} meetingId={meetingId} meetingLink={meetingLink} user={ user} />
+      <PersonnalCard startRoom={startRoom} meetingId={meetingId} meetingLink={meetingLink} user={user} />
     </div>
   )
 }
