@@ -1,14 +1,18 @@
 # YOOM Sass Avec Next.js 14, App Router, React, Tailwind, Shadcn, Aceternity, Frame motion 2024
 
+
+## Landing Page
 ![Screenshot](https://github.com/sylvaincodes/screenshots_for_app/blob/main/yoom.jpg)
 
+
+## Dashboad
 ![Screenshot](https://github.com/sylvaincodes/screenshots_for_app/blob/main/yoom-dashboard.jpg)
+
 
 # Liens du projets
 
 - Demo : https://yoom-app.netlify.app/
-
-- Github : [https://yoom-app.netlify.app/](https://github.com/sylvaincodes/yoom)
+- Github : [https://github.com/sylvaincodes/yoom/](https://github.com/sylvaincodes/yoom)
 
 # Etapes de développement
 
