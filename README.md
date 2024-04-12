@@ -1,11 +1,11 @@
-# YOOM Sass Avec Next.js 14, App Router, React, Tailwind, Shadcn, Aceternity, Frame motion 2024
+# YOOM Sass Avec Next.js 14, App Router, React, Tailwind, Shadcn, Aceternity, Frame motion 2024.
 
 
-## Landing Page
+- Landing Page
 ![Screenshot](https://github.com/sylvaincodes/screenshots_for_app/blob/main/yoom.jpg)
 
 
-## Dashboad
+- Dashboard
 ![Screenshot](https://github.com/sylvaincodes/screenshots_for_app/blob/main/yoom-dashboard.jpg)
 
 
