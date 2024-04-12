@@ -1,6 +1,8 @@
-# Landing page UI Ecommerce: Next.js 14 App Router, React, Tailwind, Shadcn, 2024
+# YOOM Sass Avec Next.js 14, App Router, React, Tailwind, Shadcn, Aceternity, Frame motion 2024
 
 ![Screenshot](https://github.com/sylvaincodes/screenshots_for_app/blob/main/yoom.jpg)
+
+![Screenshot](https://github.com/sylvaincodes/screenshots_for_app/blob/main/yoom-dashboard.jpg)
 
 # Liens du projets
 
