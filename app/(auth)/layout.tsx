@@ -14,9 +14,7 @@ export default function Layout({
       appearance={{
         layout: {
           socialButtonsVariant: "iconButton",
-          logoImageUrl: "/logo/logo.svg",
         },
-
         baseTheme: dark,
         variables: {
           colorPrimary: "#0E78F9",
@@ -27,7 +25,7 @@ export default function Layout({
         },
       }}>
 
-      <main className='flex justify-center items-center pt-20 bg-dark-1 h-screen'>
+      <main className='flex justify-center items-center pt-12 bg-dark-1 h-screen'>
         {children}
       </main>
 

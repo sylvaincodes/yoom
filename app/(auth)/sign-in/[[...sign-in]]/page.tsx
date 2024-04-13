@@ -5,10 +5,12 @@ export const metadata: Metadata = {
   title: "YOOM",
   description: "Application d'appel vidéo",
   icons: {
-    icon: "/logo/logo.svg",
+    icon: "/logo/logo.png"
   },
 };
 
 export default function Page() {
-  return <SignIn />;
+  return (
+    <SignIn />
+  );
 }

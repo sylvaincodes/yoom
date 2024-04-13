@@ -30,7 +30,7 @@ export const HeroTwo = () => {
         plateforme de messagerie instantanée et de vidéo-conférence
         <br />
         <Highlight className="text-black dark:text-white">
-          le plus populaire.
+          la plus populaire.
         </Highlight>
       </motion.h1>
 
