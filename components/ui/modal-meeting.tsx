@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { ButtonLoading } from '@/components/ui/button-loading'
+import React from 'react'
 import { Button } from '@/components/ui/button'
 import {
   Dialog,
@@ -10,6 +9,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import {cn} from '@/lib/utils'
 
 const ModalMeeting = ({ children, isOpen, onClose, title, className, buttonText, handleClick, loading, setLoading }:
   {

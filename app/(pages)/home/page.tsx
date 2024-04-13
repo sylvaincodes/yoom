@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   title: "YOOM - Page d'acceuil du site",
   description: "Plateforme web gratuite de conférence vidéo pour les particuliers et les entreprises.",
   icons: {
-    icon: "/logo/logo.png",
+    icon: "/logo/logo.svg",
   },
 
   openGraph: mergeOpenGraph({

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "YOOM - Réunions programmées",
   description: "Application d'appel vidéo",
   icons: {
-    icon: "/logo/logo.png",
+    icon: "/logo/logo.svg",
   },
 
   openGraph: mergeOpenGraph({

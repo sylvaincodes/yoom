@@ -104,14 +104,14 @@ export const Meeting = ({ type, show }: { type: 'ended' | 'upcoming' | 'recordin
             />
           ))
         ) : (
-          "" 
+         
+        <Row className="justify-center">
+            <h1 className='text-2xl font-bold text-white'>
+              {noCallsMessage}
+            </h1>
+        </Row>
           )}
       </div>
-      <Row className="justify-center">
-          <h1 className='text-2xl font-bold text-white'>
-            {noCallsMessage}
-          </h1>
-      </Row>
     </>
   );
 };

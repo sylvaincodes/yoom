@@ -20,7 +20,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 max-h-40">
+          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-h-40">
             <div className="relative z-50 px-4 py-6 rounded-[14px] w-[300px] md:w-full md:min-w-[280px] bg-slate-200"></div>
 
             <div className="relative z-50 px-4 py-6 rounded-[14px] w-[300px] md:w-full md:min-w-[280px] bg-slate-200"></div>
