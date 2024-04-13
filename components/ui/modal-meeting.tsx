@@ -21,6 +21,12 @@ const ModalMeeting = ({ children, isOpen, onClose, title, className, buttonText,
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className='bg-dark-1 text-white border-0'>
 
+        <DialogHeader>
+          <h1 className={cn("text-3xl font-bold leading-[42px]", className)}>
+            {title}
+          </h1>
+        </DialogHeader>
+
         <DialogDescription className='flex flex-col gap-4 py-4'>
           {children}
         </DialogDescription>

@@ -1,11 +1,9 @@
 import { Container } from "@/components/ui/container";
 import { HomeCard } from "@/components/wrappers/home/home-card";
 import { MeetingActions } from "@/components/wrappers/meeting/meeting-actions";
-import { Meeting } from "@/components/wrappers/meeting/meeting";
 import { mergeOpenGraph } from "@/lib/mergeOpenGraph";
 import { Grid } from "@radix-ui/themes";
 import { Metadata } from "next";
-import Link from "next/link";
 
 export default function Page() {
   return (
