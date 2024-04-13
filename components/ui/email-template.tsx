@@ -4,6 +4,9 @@ import React from 'react'
 import { useUser } from '@clerk/nextjs'
 
 export const EmailTemplate = ({ firstName }: { firstName: string }) => {
+
+  const now = new Date();
+
   const time = now.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
   const date = (new Intl.DateTimeFormat('fr-FR', { dateStyle: 'full' })).format(now);
 
