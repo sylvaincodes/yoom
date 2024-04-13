@@ -2,7 +2,7 @@ import { SignUp } from "@clerk/nextjs";
 import { Metadata } from "next";
  
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "YOOM Inscription",
   description: "Application d'appel vidéo",
   icons: {
     icon: "/logo/logo.svg",

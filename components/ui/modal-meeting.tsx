@@ -5,6 +5,7 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -13,25 +14,24 @@ import {
 const ModalMeeting = ({ children, isOpen, onClose, title, className, buttonText, handleClick, loading, setLoading }:
   {
     isOpen: boolean; onClose: () => void; title: string; className: string;
-    buttonText: string; handleClick: any; setLoading: any; loading: boolean; children?: any
+    buttonText: string; handleClick: any; setLoading?: any; loading?: boolean; children?: any
   }) => {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className='bg-dark-1 text-white border-0'>
-        <DialogHeader>
-          <DialogTitle className='text-center text-2xl capitalize'>{title}</DialogTitle>
-        </DialogHeader>
-        <DialogDescription>
 
-          <Button variant="default" className='w-full bg-primary-400 
-            text-center text-white'
-            onClick={handleClick}>
+        <DialogDescription className='flex flex-col gap-4 py-4'>
+          {children}
+        </DialogDescription>
+
+        <DialogFooter className='w-full flex justify-center'>
+          <Button onClick={handleClick} variant="default" className='w-full bg-primary-400'>
             {buttonText}
           </Button>
+        </DialogFooter>
 
-        </DialogDescription>
-        {children}
+
       </DialogContent>
     </Dialog>
   )
