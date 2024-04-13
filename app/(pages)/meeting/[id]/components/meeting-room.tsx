@@ -63,7 +63,7 @@ export const MeetingRoom = () => {
       </div>
       {/* video layout and call controls */}
       <div className="flex w-full flex-wrap items-center gap-5 justify-center pt-20">
-        <CallControls onLeave={() => router.push(`/`)} />
+        <CallControls onLeave={() => router.push(`/home`)} />
 
         <div className="flex gap-4">
           <DropdownMenu>

@@ -6,13 +6,13 @@ import { useStreamVideoClient } from "@stream-io/video-react-sdk";
 import { useRouter } from "next/navigation";
 import { useGetCallById } from "@/hooks/useGetCallById";
 import { Button } from "@/components/ui/button";
-
+  
 export const Personnal = () => {
   const router = useRouter();
   const { user } = useUser();
   const client = useStreamVideoClient();
 
-  const meetingId = user?.id;
+  const meetingId = user?.id ? user.id : "nothing" ;
   const { call } = useGetCallById(meetingId);
 
   const startRoom = async () => {
@@ -33,7 +33,6 @@ export const Personnal = () => {
   };
 
   const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/meeting/${meetingId}?personal=true`;
-
 
   return (
     <div className="grid grid-rows-[auto_auto] gap-4" >
